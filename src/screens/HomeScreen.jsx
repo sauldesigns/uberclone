@@ -30,7 +30,7 @@ const HomeScreen = () => {
                     }}
                     onPress={(data, details = null) => {
                         if (!details) {
-                            dispatch(null);
+                            dispatch(setOrigin(null));
                         } else {
                             dispatch(
                                 setOrigin({
