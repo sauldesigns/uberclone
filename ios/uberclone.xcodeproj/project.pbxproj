@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4B670BCCE1CE2502F73EFF96 /* libPods-uberclone-ubercloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A162AB506D274C3A0CDFC6CE /* libPods-uberclone-ubercloneTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C71272C226B7CB0100F0446C /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = C71272C126B7CB0100F0446C /* Fonts */; };
 		F916615CAAED4A76DBF6DD51 /* libPods-uberclone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5959B908F11C7DABF02DE2 /* libPods-uberclone.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = uberclone/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A162AB506D274C3A0CDFC6CE /* libPods-uberclone-ubercloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-uberclone-ubercloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5959B908F11C7DABF02DE2 /* libPods-uberclone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-uberclone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71272C126B7CB0100F0446C /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = "../node_modules/react-native-vector-icons/Fonts"; sourceTree = "<group>"; };
 		DD028E17BC4AEA22725AAFAD /* Pods-uberclone-ubercloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uberclone-ubercloneTests.debug.xcconfig"; path = "Target Support Files/Pods-uberclone-ubercloneTests/Pods-uberclone-ubercloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -86,6 +88,7 @@
 		13B07FAE1A68108700A75B9A /* uberclone */ = {
 			isa = PBXGroup;
 			children = (
+				C71272C126B7CB0100F0446C /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -121,7 +124,6 @@
 				DD028E17BC4AEA22725AAFAD /* Pods-uberclone-ubercloneTests.debug.xcconfig */,
 				7050F2246A5F1318D8FCA96A /* Pods-uberclone-ubercloneTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -243,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71272C226B7CB0100F0446C /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
